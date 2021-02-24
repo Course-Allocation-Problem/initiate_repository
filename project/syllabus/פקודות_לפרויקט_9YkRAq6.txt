@@ -1,0 +1,73 @@
+python -m venv venv   יצירת הסביבה- שם project
+venv\Scripts\activate    הפעלת הסביבה
+pip install Django התקנת דגנגו בסביבת עבודה
+pip install djangorestframework //התקנת פריימוורק של rest
+django-admin startproject first .   יצירת פרויקט
+django-admin startapp api התחלת האפליקציה
+python manage.py runserver   הפעלת השרת
+python manage.py migrate                 INSTALLED_APPS  אפליקציות שנוספו לפרויקט שח
+python manage.py makemigrations      יוצר קובץ בתיקיה migrations
+python manage.py makemigrations     כאשר עושים שינויים בשדה יש לבצע פקודה זו
+python manage.py createsuperuser    יצירת admin
+username: Itaysim7
+password:19283746
+pip install Pillow // מאפשר להוסיף תמונה/קובץ בשדות
+
+
+CharField(blank=False) //השדה לא יכול להיות ריק
+CharField(unique=True) //השדה חייב להיות ייחודי, חייב שדה אחד כזה בDB
+CharField(default=' ')// ערך ברירת מחדל אם לא נכנס כזה
+-------
+// שדות תקינים עבור שדה זה
+class Book(models.Model):
+    Books = ((0, 'Unknown'),
+             (1, 'processed'),
+             (2, 'paid'))
+    title = models.CharField(choi
+
+// סוגי השדות
+CharField - לאחסן טקסט למשל כותרת
+TextField - גם מאסחן טקסט, אך ארוך יותר למשל תיאור
+IntegerField- מאחסן מספר
+BigIntegerField- עבור מספר גדול מאוד
+DecimalField - מספר דצימלי למשל 1.5
+FloatField- גם מספר דצימלי, שונה איך זה מאוחסן בפייטון
+DateField- מייצג תאריך auto_now-True - אומר שזה הזמן שעכשיו גם בעדכון נתונים , auto_now_add-True - אומר שזה הזמן שעכשיו רק עבור היצירה
+DateTimeField- מייצג זמן של תאריך
+FileField- מאפשר לאפליקציות לעלות קובץ
+models.FileField(uploat_to='covers/')
+models.ImageField(uploat_to='covers/')   //תמונות
+EmailField - שדה של איימל
+BooleanField - בולייאן
+
+
+
+//get - מקבל מידע מהמאגר נתונים
+//post - מפרסם מידע למאגר נתונים
+//put - עורך פריט ספיצפי במאגר
+//delete - מחיקת פריט מהמאגר
+
+
+
+//permissions
+'rest_framework.permissions.IsAuthenticated' - רק מי שיש לו token
+'rest_framework.permissions.AllowAny' - כל מי שרוצה
+
+בדרך אפשר להביא לכולם, אבל במקרים מיוחדים לתת רק למי שיש את הטוקן.
+permission_classes = (IsAuthenticated, )
+
+
+
+
+
+//////react/////
+npx create-react-app first-app //יצירת אפליקציה של react
+npm start //אתחול השרת פיתוח
+npm run build //
+nmp test// יצירת טסטים ליחידות בדיקה שעשינו
+npm run eject // 
+npm install react -router-dom // התקנת ראוטר באפליקציה
+
+///דגשים///
+סטייט ניתן לבצע רק במחלקה
+סטייט הוא דרך לאחסן את המידע שלנו ברכיב ולעשות בו שינויים
