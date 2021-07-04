@@ -38,14 +38,14 @@
 ### &emsp; Guide:<br/>
 
 &emsp; &emsp; 1) Frontend: <br/>
-&emsp; &emsp; &emsp; I)   Go to the repository: ``` https://github.com/Itaysim7/cap-frontend ```.<br/>
+&emsp; &emsp; &emsp; I)   Go to the repository: https://github.com/Itaysim7/cap-frontend.<br/>
 &emsp; &emsp; &emsp; II)	Clone the repository.<br/>
 &emsp; &emsp; &emsp; III)	In the terminal write the command: ``` npm i ``` . <br/>
 &emsp; &emsp; &emsp; IV)	After the previous command writes the next command: ``` npm start ```.<br/>
 
 
 &emsp; &emsp; 2) Backend: <br/>
-&emsp; &emsp; &emsp; I) Go to the repository: ``` https://github.com/Itaysim7/cap-backend ```. <br/>
+&emsp; &emsp; &emsp; I) Go to the repository: https://github.com/Itaysim7/cap-backend. <br/>
 &emsp; &emsp; &emsp; II)	Clone the repository.<br/>
 &emsp; &emsp; &emsp; III)	Open your preferred IDE.<br/>
 &emsp; &emsp; &emsp; IV)	Create a Python virtual environment for your Django project:<br/>
