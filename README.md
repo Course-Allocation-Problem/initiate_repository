@@ -21,8 +21,8 @@
 &emsp; &emsp; &emsp; i) Each student updates his preferences table according to the collision of other courses that <br/>
 &emsp; &emsp; &emsp; &emsp; he already signed up to. Also, removing courses that have a full capacity. <br/> 
 &emsp; &emsp; &emsp; ii) Each student offers a bid amount for his top priority course.<br/>
-&emsp; &emsp; &emsp; iii) Each course accepts up to his available seats of the highest offers and rejects any remaining offers.<br/>
-&emsp; &emsp; &emsp; &emsp; Then capacities are updated.<br/>
+&emsp; &emsp; &emsp; iii) Each course accepts up to his available seats of the highest offers,<br/>
+&emsp; &emsp; &emsp; &emsp; and rejects any remaining offers, Then capacities are updated.<br/>
 &emsp; &emsp; &emsp; iv) If a student gets rejected by a certain course then he gets return unspent points to use on the next <br/>
 &emsp; &emsp; &emsp; &emsp; most preferred course. Furthermore, the rejected students will repeat steps (i)–(iii) <br/>
 &emsp; &emsp; &emsp; &emsp; until no more students are rejected.<br/>
@@ -31,41 +31,49 @@
 ## How to use:<br/>
 ### &emsp; Requirements: <br/> 
 #### &emsp; &emsp; Frontend: <br/> 
-&emsp; &emsp; &emsp; Node JS <br/> <br/>
+&emsp; &emsp; &emsp; Node JS version 10.9 <br/> <br/>
 #### &emsp; &emsp; Backend: <br/>
-&emsp; &emsp; &emsp; Python (preferred IDE for running the code is Pycharm) <br/><br/>
+&emsp; &emsp; &emsp; Python3 (preferred IDE for running the code is Pycharm) <br/><br/>
 
 ### &emsp; Guide:<br/>
 
-&emsp; &emsp; 1) Frontend: <br/>
-&emsp; &emsp; &emsp; I)   Go to the repository: https://github.com/Course-Allocation-Problem/cap-frontend.<br/>
-&emsp; &emsp; &emsp; II)	 Clone the repository.<br/>
-&emsp; &emsp; &emsp; III)	In the terminal write the command: ``` npm i ``` . <br/>
-&emsp; &emsp; &emsp; IV)	 After the previous command writes the next command: ``` npm start ```.<br/>
+&emsp; If you installing the Backend on linux, replace python with python3<br/> 
+&emsp; &emsp; 1) Backend: <br/>
+&emsp; &emsp; &emsp; * Go to the repository: https://github.com/Course-Allocation-Problem/cap-backend. <br/>
+&emsp; &emsp; &emsp; *	Clone the repository.<br/>
+&emsp; &emsp; &emsp; *	Write the command:```cd cap-backend```.<br/>
+&emsp; &emsp; &emsp; *	Create a Python virtual environment for your Django project:<br/>
+&emsp; &emsp; &emsp; &emsp; Write in the terminal: ``` python -m venv venv ```<br/>
+
+&emsp; &emsp; &emsp; * Activate the virtual environment.<br/>
+&emsp; &emsp; &emsp; &emsp; For Linux: ``` source venv/bin/activate ``` <br/>
+&emsp; &emsp; &emsp; &emsp; For Windows: ``` venv\Scripts\activate ``` <br/>
+
+&emsp; &emsp; &emsp; *	Install Python dependencies for this project: ```pip install -r requirements.txt ```. <br/>
+&emsp; &emsp; &emsp; * Create super user using: ```python manage.py createsuperuser```. <br/>
+&emsp; &emsp; &emsp; * Start the Django development server by command: ```python manage.py runserver ```.<br/>
+&emsp; &emsp; &emsp; * Open http://127.0.0.1:8000/admin/ in a web browser to view your application.<br/>
+&emsp; &emsp; &emsp; * Insert your super user informantio has been created on VII to insrt to Dejango.<br/>
+&emsp; &emsp; &emsp; * Now you can examine the database.<br/><br/>
 
 
-&emsp; &emsp; 2) Backend: <br/>
-&emsp; &emsp; &emsp; I) Go to the repository: https://github.com/Itaysim7/cap-backend. <br/>
-&emsp; &emsp; &emsp; II)	Clone the repository.<br/>
-&emsp; &emsp; &emsp; III)	Open your preferred IDE.<br/>
-&emsp; &emsp; &emsp; IV)	Create a Python virtual environment for your Django project:<br/>
-&emsp; &emsp; &emsp; &emsp; a) Write in the terminal: ``` python -m venv venv ```<br/>
+&emsp; &emsp; 2) Frontend: <br/>
+&emsp; &emsp; &emsp; * Go to the repository: https://github.com/Course-Allocation-Problem/cap-frontend.<br/>
+&emsp; &emsp; &emsp; *	Clone the repository.<br/>
+&emsp; &emsp; &emsp; * Write the command: ```cd cap-frontend```.<br/>
+&emsp; &emsp; &emsp; *	In the terminal write the command: ```npm i``` . <br/>
+&emsp; &emsp; &emsp; * After the previous command writes the next command: ```npm start```.<br/>
+&emsp; &emsp; &emsp; * Open http://localhost:3000/ in a web browser to view your application.<br/><br/>
 
-&emsp; &emsp; &emsp; V) Activate the virtual environment.<br/>
-&emsp; &emsp; &emsp; &emsp; a) For Linux: ``` source venv/bin/activate ``` <br/>
-&emsp; &emsp; &emsp; &emsp; b) For Windows: ``` venv\Scripts\activate ``` <br/>
-
-&emsp; &emsp; &emsp; VI)	Install Python dependencies for this project: ``` pip install -r requirements.txt ``` <br/>
-&emsp; &emsp; &emsp; VII) Start the Django development server by command: ```python manage.py runserver ```<br/>
 
 &emsp; &emsp; 3) Log in: You can experiment using the following login details<br/>
-&emsp; &emsp; &emsp; I) Student: <br/>
-&emsp; &emsp; &emsp; &emsp; a) User name: user_test_11 <br/>
-&emsp; &emsp; &emsp; &emsp; b) Password: Itaysim7 <br/>
+&emsp; &emsp; &emsp; * Student: <br/>
+&emsp; &emsp; &emsp; &emsp; User name: user_test_11 <br/>
+&emsp; &emsp; &emsp; &emsp; Password: Itaysim7 <br/>
 
-&emsp; &emsp; &emsp; II)	University: <br/>
-&emsp; &emsp; &emsp; &emsp; a) User name: Ariel-cs <br/>
-&emsp; &emsp; &emsp; &emsp; b) Password: Capcap11 <br/>  
+&emsp; &emsp; &emsp; *	University: <br/>
+&emsp; &emsp; &emsp; &emsp; User name: Ariel-cs <br/>
+&emsp; &emsp; &emsp; &emsp; Password: Capcap11 <br/>  
  
  
 
