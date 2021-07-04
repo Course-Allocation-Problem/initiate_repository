@@ -64,8 +64,8 @@
 &emsp; &emsp; &emsp; &emsp; b) Password: Itaysim7 <br/>
 
 &emsp; &emsp; &emsp; II)	University: <br/>
-&emsp; &emsp; &emsp; &emsp; a. User name: Ariel-cs <br/>
-&emsp; &emsp; &emsp; &emsp; b. Password: Capcap11 <br/>  
+&emsp; &emsp; &emsp; &emsp; a) User name: Ariel-cs <br/>
+&emsp; &emsp; &emsp; &emsp; b) Password: Capcap11 <br/>  
  
  
 
