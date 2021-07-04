@@ -38,7 +38,7 @@
 ### &emsp; Guide:<br/>
 
 &emsp; &emsp; 1) Frontend: <br/>
-&emsp; &emsp; &emsp; I)   Go to the repository: https://github.com/Itaysim7/cap-frontend.<br/>
+&emsp; &emsp; &emsp; I)   Go to the repository: https://github.com/Course-Allocation-Problem/cap-frontend.<br/>
 &emsp; &emsp; &emsp; II)	 Clone the repository.<br/>
 &emsp; &emsp; &emsp; III)	In the terminal write the command: ``` npm i ``` . <br/>
 &emsp; &emsp; &emsp; IV)	 After the previous command writes the next command: ``` npm start ```.<br/>
