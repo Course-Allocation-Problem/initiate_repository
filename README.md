@@ -10,21 +10,22 @@
 &emsp; Thus, we implemented a new method of fair division among the elective courses. <br/>
 
 ### Algorithm: <br/>
-&emsp; We implement an algorithm named SP which mentioned in the following article: <br/> 
-&emsp; Article: Optimization Mechanisms for the Course Allocation Problem, <br/>   
-&emsp; Written by: Hoda Atef Yekta, Robert, <br/>                                                                                       
+&emsp; We implement an algorithm named SP which mentioned in the following artical. <br/> 
+&emsp; Article name: Optimization Mechanisms for the Course Allocation Problem, <br/>   
+&emsp; Written by: Hoda Atef Yekta, Robert. <br/>                                                                                       
 &emsp; Day Published: 13 Jan 2020 Online by INFORMS Institute for Operations Research <br/>
 &emsp; and the Management Sciences: https://pubsonline.informs.org/doi/10.1287/ijoc.2018.0849 <br/> 
-&emsp; Pseudo Code: <br/>
 
+#### &emsp; Pseudo Code: <br/>
 &emsp; &emsp; 1) Repeats k times, every round:<br/>
-&emsp; &emsp; &emsp; i) Each student updates his preferences table according to the collision of other courses that he already signed up to. <br/>
-&emsp; &emsp; &emsp; &emsp; Also, removing courses that have a full capacity. <br/> 
+&emsp; &emsp; &emsp; i) Each student updates his preferences table according to the collision of other courses that <br/>
+&emsp; &emsp; &emsp; &emsp; he already signed up to. Also, removing courses that have a full capacity. <br/> 
 &emsp; &emsp; &emsp; ii) Each student offers a bid amount for his top priority course.<br/>
 &emsp; &emsp; &emsp; iii) Each course accepts up to his available seats of the highest offers and rejects any remaining offers.<br/>
-&emsp; &emsp; &emsp; &emsp;Then capacities are updated.<br/>
-&emsp; &emsp; &emsp; iv) If a student gets rejected by a certain course then he gets return unspent points to use on the next most preferred course.<br/>
-&emsp; &emsp; &emsp; &emsp; Furthermore, the rejected students will repeat steps (i)–(iii) until no more students are rejected.<br/>
+&emsp; &emsp; &emsp; &emsp; Then capacities are updated.<br/>
+&emsp; &emsp; &emsp; iv) If a student gets rejected by a certain course then he gets return unspent points to use on the next <br/>
+&emsp; &emsp; &emsp; &emsp; most preferred course. Furthermore, the rejected students will repeat steps (i)–(iii) <br/>
+&emsp; &emsp; &emsp; &emsp; until no more students are rejected.<br/>
 
 
 ## How to use:<br/>
@@ -34,7 +35,7 @@
 #### &emsp; &emsp; Backend: <br/>
 &emsp; &emsp; &emsp; Python (preferred IDE for running the code is Pycharm) <br/><br/>
 
-&emsp; ### Guide:<br/>
+### &emsp; Guide:<br/>
 
 &emsp; &emsp; 1) Frontend: <br/>
 &emsp; &emsp; &emsp; I)   Go to the repository: ``` https://github.com/Itaysim7/cap-frontend ```.<br/>
