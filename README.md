@@ -7,7 +7,22 @@
 &emsp; Today in higher education institutions "first come, first served” is the common method.<br/> 
 &emsp; The problems: major burden on the server, make important decisions under time pressure, <br/>
 &emsp; registration for a group of courses in parallel, a burden on the coordinator, unfair division. <br/>
-&emsp; Thus, we implemented a new method of fair division among the elective courses. <br/>
+&emsp; Thus, we implemented a new method of fair division among the elective courses. <br/><br/>
+
+### Overview of User Interface:<br/>
+&emsp; There are two types of users with our software:<br/><br/>
+#### &emsp; Student:<br/>
+&emsp; &emsp; First, the student will log in by entering the ID and the password that has been given by the University.<br/>
+&emsp; &emsp; Second,  the student considers the course information (=such that capacity, schedule, syllabus, lecturer, etc.)<br/>
+&emsp; &emsp; given by the student coordinator and ranks the elective courses as he/she sees fit, and this rank will be editable<br/> 
+&emsp; &emsp; until the deadline the students coordinator will provide.<br/>                                                          
+&emsp; &emsp; Third, after the algorithm will enroll the student in courses, he/she will see the enrollment outcome.<br/>
+
+#### &emsp; Students Coordinator:<br/>
+&emsp; &emsp; First, the coordinator will define registration opening dates and deadlines.<br/>
+&emsp; &emsp; Second, the student coordinator will provide the course information and the student information as noted above.<br/>   
+&emsp; &emsp; Third, after the algorithm will enroll the student in courses, the coordinator will approve the enrollment outcome.<br/>
+
 
 ### Algorithm: <br/>
 &emsp; We implement an algorithm named SP which mentioned in the following artical. <br/> 
@@ -39,41 +54,50 @@
 
 &emsp; If you installing the Backend on linux, replace python with python3<br/> 
 &emsp; &emsp; 1) Backend: <br/>
-&emsp; &emsp; &emsp; * Go to the repository: https://github.com/Course-Allocation-Problem/cap-backend. <br/>
-&emsp; &emsp; &emsp; *	Clone the repository.<br/>
-&emsp; &emsp; &emsp; *	Write the command:```cd cap-backend```.<br/>
-&emsp; &emsp; &emsp; *	Create a Python virtual environment for your Django project:<br/>
+&emsp; &emsp; &emsp; a) Go to the repository: https://github.com/Course-Allocation-Problem/cap-backend. <br/>
+&emsp; &emsp; &emsp; b)	Clone the repository.<br/>
+&emsp; &emsp; &emsp; c)	Write the command:```cd cap-backend```.<br/>
+&emsp; &emsp; &emsp; d)	Create a Python virtual environment for your Django project:<br/>
 &emsp; &emsp; &emsp; &emsp; Write in the terminal: ``` python -m venv venv ```<br/>
 
-&emsp; &emsp; &emsp; * Activate the virtual environment.<br/>
+&emsp; &emsp; &emsp; e) Activate the virtual environment.<br/>
 &emsp; &emsp; &emsp; &emsp; For Linux: ``` source venv/bin/activate ``` <br/>
 &emsp; &emsp; &emsp; &emsp; For Windows: ``` venv\Scripts\activate ``` <br/>
 
-&emsp; &emsp; &emsp; *	Install Python dependencies for this project: ```pip install -r requirements.txt ```. <br/>
-&emsp; &emsp; &emsp; * Create super user using: ```python manage.py createsuperuser```. <br/>
-&emsp; &emsp; &emsp; * Start the Django development server by command: ```python manage.py runserver ```.<br/>
-&emsp; &emsp; &emsp; * Open http://127.0.0.1:8000/admin/ in a web browser to view your application.<br/>
-&emsp; &emsp; &emsp; * Insert your super user informantio has been created on VII to insrt to Dejango.<br/>
-&emsp; &emsp; &emsp; * Now you can examine the database.<br/><br/>
+&emsp; &emsp; &emsp; f)	Install Python dependencies for this project: ```pip install -r requirements.txt ```. <br/>
+&emsp; &emsp; &emsp; g) Create super user using: ```python manage.py createsuperuser```. <br/>
+&emsp; &emsp; &emsp; h) Start the Django development server by command: ```python manage.py runserver ```.<br/>
+&emsp; &emsp; &emsp; i) Open http://127.0.0.1:8000/admin/ in a web browser to view your application.<br/>
+&emsp; &emsp; &emsp; j) Insert your super user informantio has been created on VII to insrt to Dejango.<br/>
+&emsp; &emsp; &emsp; k) Now you can examine the database.<br/><br/>
 
 
 &emsp; &emsp; 2) Frontend: <br/>
-&emsp; &emsp; &emsp; * Go to the repository: https://github.com/Course-Allocation-Problem/cap-frontend.<br/>
-&emsp; &emsp; &emsp; *	Clone the repository.<br/>
-&emsp; &emsp; &emsp; * Write the command: ```cd cap-frontend```.<br/>
-&emsp; &emsp; &emsp; *	In the terminal write the command: ```npm i``` . <br/>
-&emsp; &emsp; &emsp; * After the previous command writes the next command: ```npm start```.<br/>
-&emsp; &emsp; &emsp; * Open http://localhost:3000/ in a web browser to view your application.<br/><br/>
+&emsp; &emsp; &emsp; a) Go to the repository: https://github.com/Course-Allocation-Problem/cap-frontend.<br/>
+&emsp; &emsp; &emsp; b)	Clone the repository.<br/>
+&emsp; &emsp; &emsp; c) Write the command: ```cd cap-frontend```.<br/>
+&emsp; &emsp; &emsp; d)	In the terminal write the command: ```npm i``` . <br/>
+&emsp; &emsp; &emsp; e) After the previous command writes the next command: ```npm start```.<br/>
+&emsp; &emsp; &emsp; f) Open http://localhost:3000/ in a web browser to view your application.<br/><br/>
 
 
-&emsp; &emsp; 3) Log in: You can experiment using the following login details<br/>
-&emsp; &emsp; &emsp; * Student: <br/>
-&emsp; &emsp; &emsp; &emsp; User name: user_test_11 <br/>
-&emsp; &emsp; &emsp; &emsp; Password: Itaysim7 <br/>
+### Experience with the system:
 
-&emsp; &emsp; &emsp; *	University: <br/>
-&emsp; &emsp; &emsp; &emsp; User name: Ariel-cs <br/>
-&emsp; &emsp; &emsp; &emsp; Password: Capcap11 <br/>  
+&emsp; 1) Login as student coordinator with the following login details: <br/>
+&emsp; &emsp; User name: Ariel-cs <br/>
+&emsp; &emsp; Password: Capcap11 <br/>  
+&emsp; 2) Define begin date and deadline date for ranking time.<br/> 
+&emsp; 3) Logout. <br/>
+&emsp; 4) Login as student with the following login details: <br/>
+&emsp; &emsp; User name: user_test_11 <br/>
+&emsp; &emsp; Password: Itaysim7 <br/>
+&emsp; 5) Considers the course information (=such that capacity, schedule, syllabus, lecturer, etc).<br/>
+&emsp; 6) Ranks the elective courses as you sees the best fit. <br/>
+&emsp; 7) Logout, and repeat on stage one.<br/>
+&emsp; 8) When the ranking time over, run the algorithm in the approval page.<br/>
+&emsp; 9) Logout, and repeat on stage four.<br/>
+&emsp; 10) See the results of the algorithm from stage 8.<br/>
+
  
  
 
