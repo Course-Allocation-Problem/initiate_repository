@@ -15,7 +15,7 @@
 &emsp; &emsp; First, the student will log in by entering the ID and the password that has been given by the University.<br/>
 &emsp; &emsp; Second,  the student considers the course information (=such that capacity, schedule, syllabus, lecturer, etc.)<br/>
 &emsp; &emsp; given by the student coordinator and ranks the elective courses as he/she sees fit, and this<br/> 
-&emsp; &emsp; rank will be editable until the deadline the students coordinator will provide.<br/>                                                          
+&emsp; &emsp; rank will be editable until the deadline the students coordinator will provide.                                                       
 &emsp; &emsp; Third, after the algorithm will enroll the student in courses, he/she will see the enrollment outcome.<br/>
 
 #### &emsp; Students Coordinator:<br/>
