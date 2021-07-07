@@ -14,14 +14,16 @@
 #### &emsp; Student:<br/>
 &emsp; &emsp; First, the student will log in by entering the ID and the password that has been given by the University.<br/>
 &emsp; &emsp; Second,  the student considers the course information (=such that capacity, schedule, syllabus, lecturer, etc.)<br/>
-&emsp; &emsp; given by the student coordinator and ranks the elective courses as he/she sees fit, and this rank will be editable<br/> 
-&emsp; &emsp; until the deadline the students coordinator will provide.<br/>                                                          
+&emsp; &emsp; given by the student coordinator and ranks the elective courses as he/she sees fit, and this<br/> 
+&emsp; &emsp; rank will be editable until the deadline the students coordinator will provide.<br/>                                                          
 &emsp; &emsp; Third, after the algorithm will enroll the student in courses, he/she will see the enrollment outcome.<br/>
 
 #### &emsp; Students Coordinator:<br/>
 &emsp; &emsp; First, the coordinator will define registration opening dates and deadlines.<br/>
-&emsp; &emsp; Second, the student coordinator will provide the course information and the student information as noted above.<br/>   
-&emsp; &emsp; Third, after the algorithm will enroll the student in courses, the coordinator will approve the enrollment outcome.<br/>
+&emsp; &emsp; Second, the student coordinator will provide the course<br/>
+&emsp; &emsp; information and the student information as noted above.<br/>
+&emsp; &emsp; Third, after the algorithm will enroll the student in courses,<br/>
+&emsp; &emsp; the coordinator will approve the enrollment outcome.<br/>
 
 
 ### Algorithm: <br/>
