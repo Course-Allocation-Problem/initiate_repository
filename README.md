@@ -86,8 +86,8 @@
 ### Experience with the system:
 
 &emsp; 1) Login as student coordinator with the following login details: <br/>
-&emsp; &emsp; User name: Ariel-cs <br/>
-&emsp; &emsp; Password: Capcap11 
+&emsp; &emsp; User name: Ariel-cs<br/>
+&emsp; &emsp; Password: Capcap11<br/> 
 &emsp; 2) Define begin date and deadline date for ranking time.<br/> 
 &emsp; 3) Logout. <br/>
 &emsp; 4) Login as student with the following login details: <br/>
