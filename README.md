@@ -83,7 +83,7 @@
 &emsp; &emsp; &emsp; f) Open http://localhost:3000/ in a web browser to view your application.<br/><br/>
 
 
-### Experience with the system:
+### System procedure:
 
 &emsp; 1) Login as student coordinator with the following login details: <br/>
 &emsp; &emsp; User name: Ariel-cs<br/>
