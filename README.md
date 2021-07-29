@@ -44,6 +44,16 @@
 &emsp; &emsp; &emsp; &emsp; most preferred course. Furthermore, the rejected students will repeat steps (i)–(iii) <br/>
 &emsp; &emsp; &emsp; &emsp; until no more students are rejected.<br/>
 
+#### Video link: https://www.youtube.com/watch?v=3kkxUZOsRMw
+
+#### link to a website: https://fair-division.herokuapp.com/
+login details for student coordinator: <br/>
+Username: Ariel-cs <br/>
+Password: Capcap11 <br/>
+login details for student: <br/>
+Username: user_test_11 <br/>
+Password: Capcap77 <br/>
+
 
 ## How to use:<br/>
 ### &emsp; Requirements: <br/> 
@@ -86,12 +96,12 @@
 ### System procedure:
 
 &emsp; 1) Login as student coordinator with the following login details: <br/>
-&emsp; &emsp; User name: Ariel-cs<br/>
+&emsp; &emsp; Username: Ariel-cs<br/>
 &emsp; &emsp; Password: Capcap11<br/> 
 &emsp; 2) Define begin date and deadline date for ranking time.<br/> 
 &emsp; 3) Logout. <br/>
 &emsp; 4) Login as student with the following login details: <br/>
-&emsp; &emsp; User name: user_test_11 <br/>
+&emsp; &emsp; Username: user_test_11 <br/>
 &emsp; &emsp; Password: Itaysim7 <br/>
 &emsp; 5) Considers the course information (=such that capacity, schedule, syllabus, lecturer, etc).<br/>
 &emsp; 6) Ranks the elective courses as you sees the best fit. <br/>
